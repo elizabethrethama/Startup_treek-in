@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
@@ -36,22 +37,30 @@
         </div>
   </nav>
 
-<section class="cabecera">
-  <div class="Texto1">
-      <p>Haz Trekking sin parar</p>
+<section class="container-flex cabecera">
+<div class="col-4">
+  <div class="row">
+    <div class="Texto1">
+        <p>Haz Trekking sin parar</p>
+    </div>
   </div>
-  <div class="texto2">
-    <p>Con Trekk-in te desocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición</p>
+</div>
+<div class="col-4">
+  <div class="row">
+    <div class="texto2">
+      <p>Con Trekk-in te desocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición</p>
+    </div>
   </div>
+</div>
 </section>
 
 <section>
   <div class="imagenfondo">
-    <img src="assets/img/bg-hero.png" alt="">
+    <img src="assets/img/bg-hero.png" class="responsive">
   </div>
 </section>
 
-<section>
+<section class="container-flex rectangulo">
   <div class="caracteristicas">
     <p>Caracteristicas</p>
   </div>
@@ -66,37 +75,46 @@
   </div>
 </section>
 
-<section>
+<section id="secprecios">
   <div class="precios">
     <p>precios</p>
   </div>
-  <div class="card">
-  <div class="card-header">
-    Trekk-in Free
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">$ 0 / mes </h5>
-    <p class="card-text">Ver mapas creados por usuarios</p>
-    <p class="card-text">Concretar con otros usuarios</p>
-    <a href="#" class="btn btn-primary">Obtén Free</a>
-  </div>
+<div class="col-sm-4">
+  <div class="row">
+    <div class="card">
+        <div class="card-header">
+          Trekk-in Free
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">$ 0 / mes </h5>
+          <p class="card-text">Ver mapas creados por usuarios</p>
+          <p class="card-text">Concretar con otros usuarios</p>
+          <a href="#" class="btn btn-primary">Obtén Free</a>
+        </div>
+   </div>
 </div>
-<div class="card">
-  <div class="card-header">
-    Trekk-in Premium
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">$3500 / mes</h5>
-    <p class="card-text">Ver mapas creados por usuarios</p>
-    <p class="card-text">Concretar con otros usuarios</p>
-    <p class="card-text">Definir mejores rutas</p>
-    <p class="card-text">Mapas Offline</p>
-    <p class="card-text">Integración con otras aplicaciones</p>
-    <a href="#" class="btn btn-primary">Obtén Premium</a>
-  </div>
-  <div class="fondoprecios"></div>
+</div>
+<div class="col-sm-4">
+  <div class="row">
+    <div class="card">
+      <div class="card-header">
+        Trekk-in Premium
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">$3500 / mes</h5>
+        <p class="card-text">Ver mapas creados por usuarios</p>
+        <p class="card-text">Concretar con otros usuarios</p>
+        <p class="card-text">Definir mejores rutas</p>
+        <p class="card-text">Mapas Offline</p>
+        <p class="card-text">Integración con otras aplicaciones</p>
+        <a href="#" class="btn btn-primary">Obtén Premium</a>
+      </div>
+    </div>
 </div>
 </section>
+<div class="preciosfondo">
+  <img src="assets/img/bg-price.png" class="responsive">
+</div>
 
 <footer>
   <ul class="nav">
