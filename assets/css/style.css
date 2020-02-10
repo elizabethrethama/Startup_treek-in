@@ -1,3 +1,36 @@
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
 
+.nav-link {
+  color: grey;
+}
+
+* {
+  max-width: 1280px;
+  max-height: 2000px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card .grid {
+  display: grid;
+  grid-template-columns: 50px 300px;
+  grid-template-rows: 200px 75px;
+}
+
+.fondoprecios {
+  background-image: url();
+}
+
+.navbar-toggler-icon {
+  color: grey;
+}
+
+.nav {
+  background-color: #221d23;
+}
 
 /*# sourceMappingURL=style.css.map */
