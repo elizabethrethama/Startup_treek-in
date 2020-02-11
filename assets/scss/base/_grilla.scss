@@ -1,29 +1,70 @@
 *     {
   max-width: 1366px;
-  max-height: auto;
   margin: 0px;
   padding: 0px;
 }
-.cabecera   {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  width: 360px;
-  height: 100px;
+
+body      {
+  max-width: 1366px;
 }
+
+
+
+btn-primary  {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card   {
+  width: 311px;
+  height: 368px;
+}
+
+.caracteristicas  {
+margin-bottom: 46px;
+}
+
+.portada1   {
+  position: absolute;
+}
+
+.section  {
+  display: flex;
+  flex-direction: row;
+}
+
+.Texto1   {
+  position: absolute;
+}
+
+
 
 .rectangulo   {
   width: 1336px;
-  height: 200px;
+  height: 435px;
+
+  }
+
+
+.containprice  {
+    position: absolute;
+
 }
 
+.tituloprecio   {
+  padding: 80px;
+}
 
 .responsive  {
 width: 100%;
 height: auto;
 }
 
-.container-flex   {
-  width: 100%;
-  height: auto;
+.nav-item   {
+  display: flex;
+  text-align: left;
+}
+
+footer  {
+  max-width: 1366px;
 }

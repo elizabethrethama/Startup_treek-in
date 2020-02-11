@@ -42,24 +42,62 @@
   text-align: left;
 }
 
+.tituloprecio {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+
 * {
   max-width: 1366px;
-  max-height: auto;
   margin: 0px;
   padding: 0px;
 }
 
+.texto1 {
+  position: absolute;
+}
+
+btn-primary {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card {
+  width: 311px;
+  height: 368px;
+}
+
+.caracteristicas {
+  margin-bottom: 46px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
 .cabecera {
   position: absolute;
-  top: 80px;
-  left: 0;
-  width: 360px;
-  height: 100px;
+  display: flex;
+  left: -119px;
+  top: 143px;
+  flex-direction: row-reverse;
+  width: 628px;
 }
 
 .rectangulo {
   width: 1336px;
-  height: 200px;
+  height: 435px;
+}
+
+.containprice {
+  position: absolute;
+}
+
+.tituloprecio {
+  padding: 80px;
 }
 
 .responsive {
@@ -67,17 +105,26 @@
   height: auto;
 }
 
-.container-flex {
-  width: 100%;
-  height: auto;
+.nav-item {
+  display: flex;
+  text-align: left;
 }
 
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1366px;
+  }
+}
 .navbar-toggler-icon {
   color: grey;
 }
 
 .nav {
   background-color: #221d23;
+}
+
+.tituloprecio {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
