@@ -50,50 +50,38 @@
 }
 
 * {
-  max-width: 1366px;
+  max-width: 1350px;
   margin: 0px;
   padding: 0px;
 }
 
-.texto1 {
+.container2 {
   position: absolute;
-}
-
-btn-primary {
-  display: flex;
-  justify-content: flex-start;
+  width: 1349px;
 }
 
 .card {
   width: 311px;
   height: 368px;
+  margin: 26px;
 }
 
 .caracteristicas {
   margin-bottom: 46px;
 }
 
-.section {
-  display: flex;
-  flex-direction: row;
+.portada1 {
+  position: absolute;
 }
 
-.cabecera {
-  position: absolute;
+.sesion {
   display: flex;
-  left: -119px;
-  top: 143px;
-  flex-direction: row-reverse;
-  width: 628px;
+  flex-direction: row;
 }
 
 .rectangulo {
   width: 1336px;
   height: 435px;
-}
-
-.containprice {
-  position: absolute;
 }
 
 .tituloprecio {
@@ -110,11 +98,15 @@ btn-primary {
   text-align: left;
 }
 
-@media (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1366px;
-  }
+.fondoprecio {
+  width: 100%;
+  height: auto;
 }
+
+footer {
+  max-width: 1350px;
+}
+
 .navbar-toggler-icon {
   color: grey;
 }
