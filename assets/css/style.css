@@ -49,15 +49,14 @@
   text-align: center;
 }
 
-* {
-  max-width: 1350px;
-  margin: 0px;
-  padding: 0px;
-}
-
 .container2 {
   position: absolute;
   width: 1349px;
+  height: auto;
+}
+
+button {
+  color: #55a7ff;
 }
 
 .card {
@@ -77,6 +76,7 @@
 .sesion {
   display: flex;
   flex-direction: row;
+  margin-left: 372px;
 }
 
 .rectangulo {
@@ -84,8 +84,12 @@
   height: 435px;
 }
 
+.portada1 {
+  padding: 40px;
+}
+
 .tituloprecio {
-  padding: 80px;
+  padding: 40px;
 }
 
 .responsive {
@@ -99,8 +103,7 @@
 }
 
 .fondoprecio {
-  width: 100%;
-  height: auto;
+  position: static;
 }
 
 footer {
