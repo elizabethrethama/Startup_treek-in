@@ -4,6 +4,24 @@
   font-size: 50px;
 }
 
+.card-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.card-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
 .nav-link {
   color: grey;
 }
@@ -96,6 +114,10 @@ footer {
 
 .navbar-toggler-icon {
   color: grey;
+}
+
+.card-header {
+  background-color: white;
 }
 
 .nav {
