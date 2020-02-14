@@ -39,17 +39,18 @@
   text-align: justify;
 }
 
-.caracteristicas {
+.titulocaracteristicas {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
+  margin: 40px;
 }
 
 .estadisticas {
   font-family: "Raleway", sans-serif;
-  font-weight: normal;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 26px;
   text-align: left;
 }
 
@@ -69,38 +70,29 @@
 
 button {
   color: #55a7ff;
+  width: auto;
 }
 
-.caracteristicas {
-  margin-bottom: 46px;
-}
-
-.portada1 {
+.portada {
   position: absolute;
   margin: 102px;
 }
 
-.rectangulo {
-  width: 1336px;
-  height: 435px;
+.precios {
+  z-index: 1;
 }
 
 .tituloprecio {
   padding: 40px;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+#textoportada {
+  float: right;
 }
 
 .nav-item {
   display: flex;
   text-align: left;
-}
-
-.fondoprecio {
-  position: static;
 }
 
 .sesion {
@@ -110,6 +102,19 @@ button {
 
 footer {
   max-width: 1350px;
+}
+
+.imagenfondo {
+  background-image: url(file:///C:/Users/admin/Desktop/FrontEnd_ElizabethRetamalMella/Modulo_2%20Flex,%20Grilla,%20Sass%20y%20Svg/Apoyo%20Prueba%20-%20Startup%20Treek-in/entregables/images/bg-hero.svg);
+  height: 893px;
+  background-repeat: no-repeat;
+}
+
+.fondoprecio {
+  height: 893px;
+  background-image: url(file:///C:/Users/admin/Desktop/FrontEnd_ElizabethRetamalMella/Modulo_2%20Flex,%20Grilla,%20Sass%20y%20Svg/Prueba_Startup_Treek-in/assets/img/bg-price.svg);
+  background-repeat: no-repeat;
+  position: static;
 }
 
 .navbar-toggler-icon {

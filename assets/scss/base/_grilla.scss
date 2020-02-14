@@ -1,42 +1,30 @@
 
-
 button {
   color: #55a7ff;
+  width: auto;
 }
 
-
-.caracteristicas  {
-margin-bottom: 46px;
-}
-
-.portada1   {
+.portada   {
   position: absolute;
   margin: 102px;
 }
 
-.rectangulo   {
-  width: 1336px;
-  height: 435px;
-
-  }
-
+.precios  {
+  z-index: 1;
+}
 
 .tituloprecio   {
   padding: 40px;
 }
 
-.responsive  {
-width: 100%;
-height: auto;
+
+#textoportada   {
+  float: right;
 }
 
 .nav-item   {
   display: flex;
   text-align: left;
-}
-
-.fondoprecio  {
-  position: static;
 }
 
 .sesion   {
